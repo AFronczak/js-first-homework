@@ -35,5 +35,5 @@ function Person(fname,lname,age,eyecolor)
    this.eyecolor=eyecolor;
 }
 
-adam = new person("Adam", "Fronczak", 27, "Green");
+adam = new Person("Adam", "Fronczak", 27, "Green");
 console.log(adam.firstname + " is " + adam.age + " years old.");
